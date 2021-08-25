@@ -1,0 +1,56 @@
+.index__h1 {
+  color: #00cc99;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner__bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe__title {
+  padding-bottom: 22px;
+}
+
+.subscribe__body {
+  margin-bottom: 36px;
+}
+
+.subscribe__input {
+  padding: 12px;
+}
+
+.subscribe__button {
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 52px;
+  padding-right: 51px;
+  background-color: #E31277;
+  color: white;
+  border: 0;
+}
+
+.banner__bg--subscribe {
+  height: 400px;
+  background-image: url("../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg");
+}
+
+.banner__bg--home {
+  height: 480px;
+  background-image: url("../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg");
+}
+
+/*# sourceMappingURL=style.css.map */
