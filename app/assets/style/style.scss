@@ -1,18 +1,25 @@
 @import './layout/_index.scss';
 
+@mixin banner ($height, $url) {
+    height: $height;
+    background-image: url($url);
+}
+
 img {
     max-width: 100%;
     height: auto;
 }
 
-.subscribe {
-    &__banner {
-        height: 400px;
-        background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+.banner {
+    &__bg {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
     }
+}
+
+.subscribe {
+    display: flex;
     &__title {
         padding-bottom: 22px;
     }
@@ -20,13 +27,9 @@ img {
         margin-bottom: 36px;
     }
     &__input {
-        min-width: 210px;
         padding: 12px;
-        margin-right: -3px;
-        border: 0;
     }
     &__button {
-        min-width: 135px;
         padding-top: 11px;
         padding-bottom: 13px;
         padding-left: 52px;
@@ -35,4 +38,12 @@ img {
         color: white;
         border: 0;
     }
+}
+
+.banner__bg--subscribe {
+    @include banner (400px, '../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg');
+}
+
+.banner__bg--home {
+    @include banner (480px, '../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg');
 }
