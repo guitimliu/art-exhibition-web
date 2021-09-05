@@ -74,7 +74,7 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$dark:          #707070 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -253,7 +253,9 @@ $spacers: (
   0\.25: $spacer * .25, // 4px
   0\.5: $spacer * .5, // 8px
   0\.625: $spacer * .625, // 10px
+  0\.875: $spacer * .875, // 14px
   1: $spacer, // 16px
+  1\.125: $spacer * 1.125, // 18px
   1\.5: $spacer * 1.5, // 24px
   2: $spacer * 2, // 32px
   2\.5: $spacer * 2.5, // 40px
@@ -261,6 +263,7 @@ $spacers: (
   3: $spacer * 3, // 48px
   5: $spacer * 5, // 80px
   6: $spacer * 6, // 96px
+  6\.375: $spacer * 6.375, // 102px
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
