@@ -1,0 +1,10 @@
+.img {
+    &__like {
+        width: 345px;
+        height: 345px;
+        @include pad () {
+            width: 350px;
+            height: 350px;
+        }
+    }
+}
