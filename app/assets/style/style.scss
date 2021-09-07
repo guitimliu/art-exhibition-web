@@ -19,6 +19,10 @@
 
 @import 'components/images';
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 , h6, .h6, p, ul, li {
+    margin-bottom: 0;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -29,28 +33,6 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    }
-}
-
-.subscribe {
-    display: flex;
-    &__title {
-        padding-bottom: 22px;
-    }
-    &__body {
-        margin-bottom: 36px;
-    }
-    &__input {
-        padding: 12px;
-    }
-    &__button {
-        padding-top: 11px;
-        padding-bottom: 13px;
-        padding-left: 52px;
-        padding-right: 51px;
-        background-color: #E31277;
-        color: white;
-        border: 0;
     }
 }
 
