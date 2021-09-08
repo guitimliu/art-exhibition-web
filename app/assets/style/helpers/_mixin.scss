@@ -1,0 +1,16 @@
+@mixin pad () {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin pc () {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin banner ($height, $url) {
+    height: $height;
+    background-image: url($url);
+}
