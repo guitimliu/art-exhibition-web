@@ -4,6 +4,22 @@
   font-weight: 400;
 }
 
+.banner__bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner__bg--home {
+  height: 480px;
+  background-image: url("../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg");
+}
+
+.banner__bg--subscribe {
+  height: 400px;
+  background-image: url("../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg");
+}
+
 .img__like {
   width: 345px;
   height: 345px;
@@ -23,22 +39,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, ul, li {
 img {
   max-width: 100%;
   height: auto;
-}
-
-.banner__bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.banner__bg--subscribe {
-  height: 400px;
-  background-image: url("../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg");
-}
-
-.banner__bg--home {
-  height: 480px;
-  background-image: url("../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
