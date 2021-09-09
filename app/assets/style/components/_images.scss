@@ -1,6 +1,6 @@
 .img {
     &__like {
-        width: 345px;
+        width: 100%;
         height: 345px;
         @include pad () {
             width: 350px;
